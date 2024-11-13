@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'blog',  # Your app must be listed here
+    'django.contrib.staticfiles',  
+    'blog.apps.BlogConfig',# Your app must be listed here
 ]
 
 
